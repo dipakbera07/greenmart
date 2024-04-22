@@ -245,7 +245,7 @@ span{
     width: 26%;
     /* background-color: white; */
     padding: 20px 0px 15px;
-    margin-top: 12px;
+    margin-top: 30px;
 }
 /* .box:hover{
     background: hsl(144, 49%, 67%);
@@ -291,12 +291,22 @@ span{
 }
 
 /* *************TRENDING-PAGE*****************/
+.trending-footer{
+    background-color: transparent;
+
+}
+.trending-footer2{
+    background-color: transparent;
+}
+.trending-box{
+    width: 15%;
+}
 .trending-heading{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top:30px;
-    font-size: 1.4rem;
+    padding-top:90px;
+    font-size: 1.5rem;
     background-color: #5F9831;
 }
 
@@ -333,6 +343,56 @@ span{
 }
 .trending-down a:hover{
     color: black;
+}
+
+/* ***********CUSTOMER REVIEW************* */
+
+.index-stuff1 img{
+    height: 70px;
+}
+.index-stuff1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 0px;
+    padding-bottom: 10px;
+
+}
+.index-review{
+    background-color: #5F9831;
+}
+.index-review h2{
+    padding-top: 20px;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.customer-review{
+    display: flex;
+    padding: 5px 20px;
+    justify-content: center;
+    align-items: center;
+}
+.review-1 img{
+    height: 220px;
+}
+.review-2{
+    font-size: 1.1rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.review-3{
+    padding-top: 3px;
+    margin-bottom: 40px;
+    font-size: 1.2rem;
+}
+.review-4{
+    font-size: 1.3rem;
+    padding-bottom: 12px;
+   
 }
 
 /* ---------FOOTER--------- */
@@ -432,13 +492,25 @@ span{
 .product-sticky1{
     display: flex;
     position: sticky;
-    top: 20%;
+    top: 10%;
     left: 0;
 }
 .product-sticky2{
     display: flex;
     position: sticky;
-    top: 20%;
+    top: 30%;
+    left: 0;
+}
+.product-sticky3{
+    display: flex;
+    position: sticky;
+    top: 50%;
+    left: 0;
+}
+.product-sticky4{
+    display: flex;
+    position: sticky;
+    top: 70%;
     left: 0;
 }
 
@@ -456,7 +528,7 @@ span{
     display: flex;
     margin: 10px 0px;
     margin-left: 60px;
-    padding: 100px 80px;
+    padding: 40px 80px;
     font-size: 2rem;
     background-color: #ececec;
 
