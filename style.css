@@ -218,6 +218,7 @@ span{
     color: black;
     margin-left: 10px;
     margin: 9px 10px;
+    
 }
 .index-name2{
     margin-right: 10px;
@@ -231,7 +232,8 @@ span{
     display: flex;
     align-items: center;
     justify-content:space-between;
-    background-color: rgb(192, 192, 192);
+    background-color: rgb(255, 255, 255);
+    /* border-top: solid 1px rgb(185 185 185); */
 }
 .shop-section{
     display: flex;
@@ -259,18 +261,19 @@ span{
     height: 250px;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 0px;
+    /* margin-bottom: 5px; */
 }
 
 .box-content{
     margin-left: 10px;
     margin-right: 10px;
+    border: solid 1px rgb(185 185 185);
 }
 
 .box-content a{
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .box-content a:hover{
@@ -279,6 +282,7 @@ span{
 
 .box-content p{
     color: #007185;
+    /* background-color: #4d7b4d; */
 }
 
 
@@ -292,14 +296,17 @@ span{
 
 /* *************TRENDING-PAGE*****************/
 .trending-footer{
-    background-color: transparent;
+    background-color: white;
+    /* border-top: solid 1px rgb(185 185 185) */
+    justify-content: center;
+    
 
 }
 .trending-footer2{
     background-color: transparent;
 }
 .trending-box{
-    width: 15%;
+    width: 17%;
 }
 .trending-heading{
     display: flex;
@@ -519,7 +526,7 @@ span{
 }
 
 .product-all{
-    background-color: #ffffff;
+    background-color: #f7f7f7;
     top: 5px;
     position: inherit;
     display: flex;
@@ -530,8 +537,8 @@ span{
     margin-left: 60px;
     padding: 40px 80px;
     font-size: 2rem;
-    background-color: #ececec;
-
+    background-color: #f7f7f7;
+    box-shadow: 2px 6px 10px #e5e5e5;
 }
 .product-shop:hover{
     background-color: #4d7b4d;
@@ -560,8 +567,8 @@ span{
 .product-shop-section{
     margin: 10px 100px;
     margin-left: 80px;
-    background-color: white;
-    border: 1px solid green;
+    background-color: #f7f7f7;
+    /* border: 1px solid green; */
 
 }
 
@@ -570,7 +577,7 @@ span{
     /* border: 1px solid black; */
     padding: 4px 3px;
     padding-left: 20px;
-    background-color: #ececec;
+    background-color: #ffffff;
 }
 .product-shop-price p{
     margin-left: 20px;
@@ -601,6 +608,7 @@ span{
 
 .product-box{
     width: 45%;
+    /* border: 0.5px solid black; */
 }
 
 .product-next{
@@ -643,7 +651,8 @@ span{
     margin-left: none;
 }
 .more-fruite-box{
-    width: 25%;
+    width: 26%;
+    /* border: 0.2px solid black; */
 }
 
 .more-heading{
@@ -652,11 +661,55 @@ span{
     justify-content: center;
     padding-top: 20px;
     font-size: 1.3rem;
-    background-color: #ffffff;
+    background-color: #f7f7f7;
 }
 
 .index-separate-shop{
     padding: 15px 10px;
     justify-content: center;
 
+}
+
+/* *************CLOATHS CATAGORY****** */
+.catagory{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f7f7f7;
+  
+}
+.catagory a{
+    color: black;
+    text-decoration: none;
+
+}
+.catagory-1 a{
+    padding: 2px 50px;
+    background-color: #60835b;
+    margin-top: -3px;
+    margin-bottom: -7px;
+}
+.catagory-1 :hover{
+    background-color: #345834;
+}
+.woman-1 a{
+    text-decoration: underline rgb(0, 0, 0);
+}
+.hover-1 a:hover{
+    text-decoration: underline rgb(0, 0, 0);
+}
+.man-1 a{
+    text-decoration: underline rgb(0, 0, 0);
+}
+.hover-2 a:hover{
+    text-decoration: underline rgb(0, 0, 0);
+}
+*{
+    scroll-behavior: smooth;
+}
+.product-box h2{
+    font-size: 18px;
+    margin-bottom: 3pxpx;
+    justify-content: center;
+    padding-bottom: 5px;
+    padding-left: 6px;
 }
